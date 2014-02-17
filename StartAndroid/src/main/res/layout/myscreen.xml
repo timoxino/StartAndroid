@@ -15,7 +15,7 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:id="@+id/linearLayout1"
-      android:orientation="vertical">
+      android:orientation="horizontal">
 
     <Button
         android:layout_width="100dp"
@@ -29,6 +29,13 @@
         android:id="@+id/button2"
         android:text="Button2"/>
 
+  </LinearLayout>
+
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+
     <Button
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -40,7 +47,6 @@
         android:layout_height="100dp"
         android:id="@+id/button4"
         android:text="Button4"/>
-
   </LinearLayout>
 
 </LinearLayout>
